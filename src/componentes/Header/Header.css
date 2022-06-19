@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  width: 80px;
+  margin-bottom: 50px;
+}
+
+.header-title {
+  color: var(--Gray);
+  margin-bottom: 10px;
+}
+
+.header-title-span {
+  color: var(--Very-Dark-Blue);
+}
+
+h4 {
+  color: var(--Very-Dark-Blue);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 30px;
+}

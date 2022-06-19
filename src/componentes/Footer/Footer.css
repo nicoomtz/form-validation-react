@@ -1,0 +1,18 @@
+.footer {
+  margin: 50px auto;
+}
+
+a:link, a:visited, a:active {
+  color: var(--Blue);
+  text-decoration: none;
+}
+
+.icon {
+  margin: 0px 15px;
+  transition: all 200ms;
+}
+
+.icon:hover {
+  transform: scale(1.30);
+}
+
