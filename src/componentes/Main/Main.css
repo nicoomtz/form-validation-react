@@ -23,6 +23,10 @@
   transition: all 200ms;
 }
 
+.main-input:hover {
+  transform: scale(1.05);
+}
+
 .main-input::placeholder {
   color: var(--Pale-Blue);
 }
@@ -35,6 +39,7 @@
   padding: 10px 40px;
   border-radius: 20px;
   transition: all 200ms;
+  box-shadow: 0px 3px 10px 0px rgb(211, 211, 211);
 }
 
 .main-submit:hover {
@@ -67,6 +72,18 @@ button:disabled {
   cursor: auto;
 }
 
-button:disabled:hover{
-  transform: scale(1);
+
+@media (max-width: 600px) {
+  .main-form {
+    flex-direction: column;
+  }
+
+  .main-input {
+    width: 68%;
+  }
+
+  .main-submit {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
